@@ -1,0 +1,64 @@
+
+.porshce{
+	width: 150px;
+	position: absolute;
+	top: 19%;
+	right: 1%;
+	animation-name: porshce;
+	animation-delay: 0.3s;
+	animation-duration: 7s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+.landrover{
+	width: 150px;
+	position: absolute;
+	top: 50%;
+	animation-name: landrover;
+	animation-delay: 0.2s;
+	animation-duration: 5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-fill-mode: ;
+}
+.lights{
+	width: 150px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+.traffic{
+	position: absolute;
+	width: 115px;
+	bottom: 30%;
+	right: 20%;
+}
+.sport{
+	position: absolute;
+	width: 50px;
+	bottom: 1%;
+	right: 28%;
+	animation-name: blue-car;
+	animation-delay: 2s;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+
+}
+
+
+@keyframes porshce{
+	100%{
+	    transform: translateX(-1000%);
+	}
+}
+@keyframes landrover{
+	100%{
+	    transform: translateX(400%);
+	}
+}
+@keyframes blue-car{
+	100%{
+	    transform: translateY(-1000%);
+	}
+}
