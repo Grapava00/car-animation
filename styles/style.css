@@ -1,11 +1,12 @@
 
 body{
     background-color: black;
+    width: 100%;
 }
 .porshce{
 	width: 150px;
 	position: absolute;
-	top: 19%;
+	top: 15%;
 	right: 1%;
 	animation-name: porshce;
 	animation-delay: 0.3s;
@@ -16,7 +17,7 @@ body{
 .landrover{
 	width: 150px;
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	animation-name: landrover;
 	animation-delay: 0.2s;
 	animation-duration: 5s;
@@ -26,13 +27,13 @@ body{
 .lights{
 	width: 150px;
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	left: 25vw;
 }
 .traffic{
 	position: absolute;
 	width: 115px;
-	bottom: 25%;
+	bottom: 15%;
 	right: 40vw;
 }
 .sport{
@@ -73,7 +74,7 @@ body{
 }
 @keyframes landrover{
 	100%{
-	    transform: translateX(15vw);
+	    transform: translateX(20vw);
 	}
 }
 @keyframes blue-car{
