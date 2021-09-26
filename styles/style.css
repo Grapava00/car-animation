@@ -58,63 +58,14 @@ body{
 	animation-timing-function: ease-out;
 	animation-iteration-count: infinite;
 }
-.road-blue-one{
+.road-blue{
 	position: absolute;
 	bottom: 0;
 	right: 29.7%;
 	z-index: -1;
 	width: 100px;
+	height: 100%;
 }
-.road-blue-two{
-	position: absolute;
-	bottom: 100px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-three{
-	position: absolute;
-	bottom: 200px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-four{
-	position: absolute;
-	bottom: 300px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-five{
-	position: absolute;
-	bottom: 400px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-six{
-	position: absolute;
-	bottom: 500px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-seven{
-	position: absolute;
-	bottom: 600px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.road-blue-eight{
-	position: absolute;
-	bottom: 700px;
-	right: 29.7%;
-	z-index: -1;
-	width: 100px;
-}
-.
 @keyframes porshce{
 	100%{
 	    transform: translateX(-1000%);
